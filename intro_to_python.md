@@ -29,7 +29,7 @@ Escola Tècnica Superior d’Enginyeria
 
 ---
 
-<!-- _class: smaller -->
+<!-- _class: smallest -->
 
 ## Programa del curso: Introducción a Python
 
@@ -41,15 +41,15 @@ Escola Tècnica Superior d’Enginyeria
 **Requisitos:** Trae tu propio portátil!
 **Sesiones:**
 
-- **Sesión 1 (Viernes, 7 de noviembre): Gramática básica de Python.** Familiarización con el entorno de Jupyter Notebooks y aprendizaje de los conceptos fundamentales de Python, incluyendo la introducción a variables para almacenar información y cómo trabajar con datos de texto.
-- **Sesión 2 (Viernes, 14 de noviembre): Estructura de datos y automatización de tareas.** Se aborda la organización de la información en colecciones como listas y diccionarios, junto con la automatización de tareas repetitivas mediante bucles y la toma de decisiones con sentencias condicionales.
+- **Sesión 1 (Viernes, 7 de noviembre): Gramática básica y estructuras de datos.** Se sientan las bases de la programación en Python, desde la configuración del entorno con Jupyter hasta el trabajo con variables, texto, y las estructuras de datos fundamentales como listas y diccionarios. Se introducen las funciones como bloques de código reutilizables.
+- **Sesión 2 (Viernes, 14 de noviembre): Flujo de control y manejo de ficheros.** Se dominan los elementos para controlar el flujo de un programa, como los bucles y condicionales. Se exploran técnicas más avanzadas y se finaliza con la lectura y escritura de ficheros del sistema.
 
 </div>
 <div>
 
-- **Sesión 3 (Viernes, 21 de noviembre): Introducción al análisis de datos con Pandas.** Esta sesión se centra en Pandas, la librería más importante para la ciencia de datos en Python, cubriendo la carga, inspección y filtrado de un conjunto de datos del mundo real.
-- **Sesión 4 (Viernes, 5 de diciembre): Manipulación y visualización de datos con Seaborn.** Se enseñan técnicas para transformar datos y responder preguntas complejas usando agrupaciones, así como la creación de visualizaciones y gráficos profesionales con la librería Seaborn.
-- **Sesión 5 (Viernes, 12 de diciembre): Machine learning y proyecto final.** Introducción a los conceptos de "machine learning" mediante la construcción de un modelo predictivo simple. Se consolidan todas las habilidades aprendidas con un proyecto final de análisis de datos.
+- **Sesión 3 (Viernes, 21 de noviembre): Análisis y manipulación de datos con Pandas.** Introducción a Pandas, la librería clave para la ciencia de datos. Se aprenderá el ciclo completo del trabajo con datos: carga, inspección, limpieza, filtrado, transformación, y la realización de agregaciones y agrupaciones (`groupby`) para responder preguntas.
+- **Sesión 4 (Viernes, 5 de diciembre): Visualización de datos con Matplotlib y Seaborn.** Se aprende a crear visualizaciones de datos profesionales, usando Matplotlib como base y Seaborn para producir gráficos estadísticos atractivos y listos para una presentación.
+- **Sesión 5 (Viernes, 12 de diciembre): Machine learning y proyecto final.** Introducción a los conceptos de "machine learning" con Scikit-learn, construyendo un modelo predictivo simple. Se consolidan todas las habilidades aprendidas con un proyecto final de análisis de datos.
 
 </div>
 </div>
