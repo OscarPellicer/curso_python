@@ -10,6 +10,11 @@ h1, h2 {
   border-bottom: 1px solid #57657f;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
 /* --- Section styling --- */
 /* Note that the flex stuff breaks the floating images, still working on it */
 section {
@@ -18,7 +23,7 @@ section {
   padding: 20mm;
   box-sizing: border-box;
   font-family: 'Libre Baskerville', serif;
-  font-size: 10pt;
+  font-size: 9pt;
   display: flex !important;
   flex-direction: column !important;
   justify-content: flex-start !important; /* push content to top */
@@ -46,7 +51,7 @@ section::before {
   right: 20mm;
   width: 490px;   /* desired width */
   height: 50px;   /* desired height */
-  background: url("logos/uv_etse_isp.png") no-repeat center/contain;
+  background: url("no-logo") no-repeat center/contain; /* disable logo */
   pointer-events: none;
 }
 

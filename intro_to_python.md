@@ -68,7 +68,7 @@ Escola Tècnica Superior d’Enginyeria
 
 <!-- _class: smaller -->
 
-## 0. Desinstalando Anaconda
+## Desinstalando Anaconda
 
 Si ya tienes instalada una versión de Anaconda, para evitar conflictos, es muy recomendable desinstalarla por completo antes de empezar:
 
@@ -91,21 +91,32 @@ Si ya tienes instalada una versión de Anaconda, para evitar conflictos, es muy 
 
 </div>
 </div>
-
- **Anaconda-Clean:** Para una limpieza más profunda, puedes instalar `anaconda-clean` desde el Anaconda Prompt antes de desinstalar: `conda install anaconda-clean` y luego ejecutar `anaconda-clean --yes`.
+<!-- 
+ **Anaconda-Clean:** Para una limpieza más profunda, puedes instalar `anaconda-clean` desde el Anaconda Prompt antes de desinstalar: `conda install anaconda-clean` y luego ejecutar `anaconda-clean --yes`. -->
 
 ---
 
-<!-- _class: smaller -->
+<!-- _class: small -->
 
 <!-- ![right Miniconda w:200px](imgs25/anaconda.png) -->
-![right w:500px](imgs25/powershell_annotated.png)
+<!-- ![right w:500px](imgs25/powershell_annotated.png) -->
 
-## 1. Instalando Miniconda
+## Instalando Miniconda
 
-Miniconda es una versión mínima de Anaconda que incluye solo Python, `conda` y un pequeño número de paquetes. Esto nos da un mayor control sobre nuestros entornos. 
+![left w:130px](imgs25/anaconda.png)
 
-A continuación se muestran los comandos para instalarlo, pero para más información puedes consultar la [guía oficial](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions).
+Miniconda es una versión mínima de Anaconda que incluye solo Python, `conda` y un pequeño número de paquetes. Esto nos da un mayor control sobre nuestros entornos.
+
+Para instalar Miniconda, accede a la [página de descarga](https://www.anaconda.com/download), haz click en `Get Started`, escoge la opción adecuada para tu sistema operativo, descarga el instalador y instálalo (deja todas las opciones por defecto).
+
+![right w:330px](imgs25/anaconda_win.png)
+
+Una vez instalado, para empezar a trabajar con Anaconda:
+- En Windows, abre el Anaconda Prompt desde el menú de inicio (ver imagen de la derecha $\rightarrow$)
+- En macOS, abre la terminal haciendo `Command + Space` y buscando `Terminal`
+- En Linux, abre la terminal haciendo `Ctrl + Alt + T`
+
+<!-- A continuación se muestran los comandos para instalarlo, pero para más información puedes consultar la [guía oficial](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions).
 
 **Windows**
 
@@ -123,7 +134,7 @@ del .\miniconda.exe
 
 ---
 
-<!-- _class: smallest -->
+<!-- _class: smallest
 
 ## Instalando Miniconda (continuación)
 
@@ -150,7 +161,122 @@ mkdir -p ~/miniconda3
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ~/miniconda3/miniconda.sh
 bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm ~/miniconda3/miniconda.sh
-```
+``` -->
+
+---
+
+<!-- _class: small -->
+
+## Instalando Visual Studio Code
+
+![right w:130px](imgs25/image-3.png)
+
+Visual Studio Code (VS Code) es un editor de código ligero y potente que usaremos como nuestra herramienta principal para trabajar con Python y Jupyter Notebooks. 
+
+1.  **Descarga e instala VS Code:**
+    Ve a la [web oficial de VS Code](https://code.visualstudio.com/) y descarga el instalador para tu sistema operativo. Sigue las instrucciones de instalación.
+
+2.  **Instala las extensiones esenciales:**
+    Una vez abierto VS Code, ve a la pestaña de Extensiones (el icono de los cubos en la barra lateral) y busca e instala las siguientes extensiones del desarrollador Microsoft:
+    *   **Python:** Soporte para el lenguaje Python (linting, debugging, etc.).
+    *   **Jupyter:** Soporte para trabajar con Jupyter Notebooks.
+
+Notar que al instalar las extensiones anteriores, VSCode instalará automáticamente muchas otras asociadas. En la siguiente diapositiva se muestra cómo instalar las extensiones paso a paso $\downarrow$
+
+---
+
+![center w:900px](imgs25/vscode_extensions.png)
+
+---
+
+<!-- _class: smaller -->
+
+## Usando Jupyter Notebooks en VS Code
+
+1.  **Abre la carpeta de tu proyecto en VS Code**
+    Puedes usar `File > Open Folder...` o arrastrar la carpeta directamente a la ventana de VS Code.
+
+2.  **Crea o abre un Jupyter Notebook**
+    *   Para crear uno nuevo, puedes usar el atajo `Ctrl+Shift+P` para abrir la paleta de comandos, escribir `Jupyter: Create New Jupyter Notebook` y presionar Enter.
+    *   Si ya tienes un archivo `.ipynb`, simplemente haz doble clic sobre él en el explorador de archivos de VS Code.
+
+3.  **Selecciona el kernel correcto**
+    En la esquina superior derecha del notebook, verás un botón para seleccionar el `kernel`. Haz clic en él y elige tu entorno de conda `ds`. Si no aparece, puede que tengas que buscarlo haciendo clic en `Select Another Kernel...` y navegando hasta el ejecutable de Python de tu entorno.
+
+
+Mira la imagen en la siguiente slide como referencia $\downarrow$
+
+---
+
+![center w:900px](imgs25/vscode_jupyter_annotated.png)
+
+---
+
+<!-- _class: smaller -->
+
+## Accediendo a la versión Pro de GitHub Copilot
+
+![right w:130px](imgs25/image-2.png)
+
+GitHub Copilot es un asistente de programación basado en IA que se integra en VS Code y te ayuda a escribir código más rápido. Como estudiantes, podéis acceder a Copilot Pro de forma gratuita solicitando a Github acceso los *Education Benefits*.
+
+1.  **Regístrate en GitHub:**
+    Si no tienes una cuenta, regístrate en GitHub [aquí](https://github.com/join) usando tu correo electrónico académico. Si ya tienes una cuenta con un correo no académico, puedes añadir tu correo académico a tu cuenta [aquí](https://github.com/settings/emails).
+
+2.  **Solicita acceso a los *Education Benefits*:**
+    Ve a [esta página](https://github.com/settings/education/benefits) y sigue los pasos para solicitar acceso a los *Education Benefits*. Una vez aprobados, podrás acceder a Copilot Pro de forma gratuita.
+
+3.  **Instala la extensión en VS Code:**
+    *   Ve a la pestaña de Extensiones en VS Code.
+    *   Busca `Github` y `GitHub Copilot` e instálalas.
+    *   Inicia sesión con tu cuenta de GitHub desde VS Code cuando te lo pida para vincularla.
+
+Mira la imagen en la siguiente slide como referencia $\downarrow$
+
+---
+
+<!-- _class: smaller -->
+
+<div class="columns">
+<div>
+
+![left h:500px](imgs25/image.png)
+
+</div>
+<div>
+
+![left h:500px](imgs25/image-1.png)
+
+</div>
+</div>
+
+---
+
+<!-- _class: small -->
+
+## Creando un entorno para Ciencia de Datos
+
+Vamos a crear un entorno llamado `ds` con las librerías esenciales.
+
+1.  **Abre tu terminal (macOS/Linux) o Anaconda Prompt (Windows).**
+
+2.  **Crea el entorno instalando los paquetes directamente:**
+
+    ```bash
+    conda create -n ds python=3.11 numpy pandas matplotlib scikit-learn ipykernel
+    ```
+
+    *   `conda create -n ds`: Crea un nuevo entorno llamado `ds`.
+    *   `python=3.11`: Especifica la versión de Python.
+    *   `numpy pandas ...`: Lista de paquetes a instalar.
+
+3.  **Activa el nuevo entorno:**
+
+    ```bash
+    conda activate ds
+    ```
+
+    Tu terminal cambiará para mostrar `(ds)`, indicando que el entorno está activo.
 
 ---
 
@@ -158,8 +284,7 @@ rm ~/miniconda3/miniconda.sh
 
 ## Potenciando `conda` con `mamba`
 
-<!-- ![right w:250px](imgs25/logo.webp) -->
-![right w:330px](imgs25/anaconda_win.png)
+![right w:250px](imgs25/logo.webp)
 
 Mamba es un reimplementación de `conda` en C++ que es mucho más rápida, especialmente a la hora de resolver dependencias complejas.
 
@@ -216,7 +341,7 @@ A partir de ahora, para la mayoría de los comandos, puedes usar `mamba` en luga
     ```bash
     mamba install numpy pandas scikit-learn
     ```
-*   Instalar desde un canal específico:
+*   Instalar desde `conda-forge` (más paquetes):
     ```bash
     mamba install -c conda-forge nombre_paquete
     ```
@@ -238,95 +363,6 @@ A partir de ahora, para la mayoría de los comandos, puedes usar `mamba` en luga
 
 ---
 
-<!-- _class: small -->
-
-## Creando un entorno para Ciencia de Datos
-
-Vamos a crear un entorno llamado `datascience` con las librerías esenciales.
-
-1.  **Abre tu terminal (macOS/Linux) o Anaconda Prompt (Windows).**
-
-2.  **Crea el entorno instalando los paquetes directamente:**
-
-    ```bash
-    conda create -n datascience python=3.10 numpy pandas matplotlib scikit-learn jupyterlab
-    ```
-
-    *   `conda create -n datascience`: Crea un nuevo entorno llamado `datascience`.
-    *   `python=3.10`: Especifica la versión de Python.
-    *   `numpy pandas ...`: Lista de paquetes a instalar.
-
-3.  **Activa el nuevo entorno:**
-
-    ```bash
-    conda activate datascience
-    ```
-
-    Tu terminal cambiará para mostrar `(datascience)`, indicando que el entorno está activo.
-
----
-
-<!-- _class: small -->
-
-## Instalando Visual Studio Code
-
-Visual Studio Code (VS Code) es un editor de código ligero y potente que usaremos como nuestra herramienta principal para trabajar con Python y Jupyter Notebooks.
-
-1.  **Descarga e instala VS Code:**
-    Ve a la [web oficial de VS Code](https://code.visualstudio.com/) y descarga el instalador para tu sistema operativo. Sigue las instrucciones de instalación.
-
-2.  **Instala las extensiones esenciales:**
-    Una vez abierto VS Code, ve a la pestaña de Extensiones (el icono de los cubos en la barra lateral) y busca e instala las siguientes extensiones de Microsoft (ver siguiente slide):
-    *   **Python:** Soporte para el lenguaje Python (linting, debugging, etc.).
-    *   **Jupyter:** Soporte para trabajar con Jupyter Notebooks.
-
----
-
-![center w:900px](imgs25/vscode_extensions.png)
-    
----
-
-<!-- _class: smaller -->
-
-## Usando Jupyter Notebooks en VS Code
-
-1.  **Abre la carpeta de tu proyecto en VS Code**
-    Puedes usar `File > Open Folder...` o arrastrar la carpeta directamente a la ventana de VS Code.
-
-2.  **Crea o abre un Jupyter Notebook**
-    *   Para crear uno nuevo, puedes usar el atajo `Ctrl+Shift+P` para abrir la paleta de comandos, escribir `Jupyter: Create New Jupyter Notebook` y presionar Enter.
-    *   Si ya tienes un archivo `.ipynb`, simplemente haz doble clic sobre él en el explorador de archivos.
-
-3.  **Selecciona el kernel correcto**
-    En la esquina superior derecha del notebook, verás un botón para seleccionar el `kernel`. Haz clic en él y elige tu entorno de conda `datascience`. Si no aparece, puede que tengas que buscarlo haciendo clic en `Select Another Kernel...` y navegando hasta el ejecutable de Python de tu entorno.
-
-Mira la imagen en la siguiente slide como referencia.
-
----
-
-![center w:900px](imgs25/vscode_jupyter_annotated.png)
-
----
-
-<!-- _class: smaller -->
-
-## Potencia tu código con GitHub Copilot
-
-GitHub Copilot es un asistente de programación basado en IA que se integra en VS Code y te ayuda a escribir código más rápido. Como estudiantes, podéis acceder a Copilot Pro de forma gratuita solicitando a Github acceso los *Education Benefits*.
-
-1.  **Regístrate en GitHub:**
-    Si no tienes una cuenta, regístrate en GitHub [aquí](https://github.com/join) usando tu correo electrónico académico. Si ya tienes una cuenta con un correo no académico, puedes añadir tu correo académico a tu cuenta [aquí](https://github.com/settings/emails).
-
-2.  **Solicita acceso a los *Education Benefits*:**
-    Ve a [esta página](https://github.com/settings/education/benefits) y sigue los pasos para solicitar acceso a los *Education Benefits*. Una vez aprobados, podrás acceder a Copilot Pro de forma gratuita.
-
-3.  **Instala la extensión en VS Code:**
-    *   Ve a la pestaña de Extensiones en VS Code.
-    *   Busca `Github` y `GitHub Copilot` e instálalas.
-    *   Inicia sesión con tu cuenta de GitHub desde VS Code cuando te lo pida para vincularla.
-
----
-
 
 <!-- _class: smaller -->
 
@@ -339,15 +375,15 @@ Si prefieres la interfaz clásica de Jupyter Lab en el navegador, puedes seguir 
     mamba install -n base -c conda-forge jupyterlab
     ```
 
-2.  **Conecta tu entorno `datascience`:** Por defecto, Jupyter Lab solo "ve" el Python del entorno desde el que se lanza. Para que pueda usar nuestro entorno `datascience`, necesitamos instalar `ipykernel` en él y registrarlo.
+2.  **Conecta tu entorno `ds`:** Por defecto, Jupyter Lab solo "ve" el Python del entorno desde el que se lanza. Para que pueda usar nuestro entorno `ds`, necesitamos instalar `ipykernel` en él y registrarlo.
     
-    *   **Activa el entorno `datascience`:** `conda activate datascience`
+    *   **Activa el entorno `ds`:** `conda activate ds`
     *   **Instala `ipykernel`:** `mamba install ipykernel`
-    *   **Registra el entorno como un kernel para Jupyter:** `python -m ipykernel install --user --name datascience --display-name "Python (datascience)"`
+    *   **Registra el entorno:** `python -m ipykernel install --user --name ds --display-name ds`
         
 3.  **Lanza Jupyter Lab:**
     Asegúrate de estar en el entorno `base` (`conda deactivate` si estás en otro) y ejecuta: `jupyter lab`
-    Esto abrirá Jupyter Lab en tu navegador, y ahora verás "Python (datascience)" como una opción para crear nuevos notebooks.
+    Esto abrirá Jupyter Lab en tu navegador, y ahora verás "ds" como una opción para crear nuevos notebooks.
 
 ---
 
@@ -416,7 +452,7 @@ Python incluye su propio módulo para crear entornos virtuales ligeros, llamado 
 *   **Independiente del lenguaje:** Puede gestionar paquetes y dependencias de otros lenguajes (R, C++, etc.), no solo Python.
 *   **Gestión de binarios:** Instala paquetes pre-compilados (binarios), lo que puede ser más rápido y evitar problemas de compilación, especialmente en Windows.
 *   **Gestión de Python:** Puede instalar diferentes versiones de Python en diferentes entornos.
-*   **Centralizado:** Los entornos se guardan en una carpeta central de Miniconda, no en la carpeta del proyecto.
+*   **Centralizado:** Los entornos se guardan en una carpeta central de Miniconda, no junto al proyecto.
 
 </div>
 <div>
@@ -432,7 +468,7 @@ Python incluye su propio módulo para crear entornos virtuales ligeros, llamado 
 </div>
 </div>
 
-<div class="info">
+<div class="info box">
 
 **Recomendación:** Para este curso, usaremos **`conda` + `mamba`** por su robustez en el ecosistema de ciencia de datos.
 
