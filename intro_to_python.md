@@ -220,18 +220,17 @@ Mira la imagen en la siguiente slide como referencia $\downarrow$
 
 GitHub Copilot es un asistente de programación basado en IA que se integra en VS Code y te ayuda a escribir código más rápido. Como estudiantes, podéis acceder a Copilot Pro de forma gratuita solicitando a Github acceso los *Education Benefits*.
 
-1.  **Regístrate en GitHub:**
-    Si no tienes una cuenta, regístrate en GitHub [aquí](https://github.com/join) usando tu correo electrónico académico. Si ya tienes una cuenta con un correo no académico, puedes añadir tu correo académico a tu cuenta [aquí](https://github.com/settings/emails).
+1.  **Regístrate en GitHub y añade tu correo académico:**
+    Si no tienes una cuenta, [regístrate en GitHub](https://github.com/join) usando tu correo electrónico personal (gmail, yahoo, etc.). A continuación, añade tu correo académico a tu cuenta desde la sección [Emails](https://github.com/settings/emails) en *Settings* (ver siguiente slide $\downarrow$)
 
 2.  **Solicita acceso a los *Education Benefits*:**
-    Ve a [esta página](https://github.com/settings/education/benefits) y sigue los pasos para solicitar acceso a los *Education Benefits*. Una vez aprobados, podrás acceder a Copilot Pro de forma gratuita.
+    Ve a [esta página](https://github.com/settings/education/benefits) y sigue los pasos para solicitar acceso a los *Education Benefits*. Una vez aprobados, podrás acceder a Copilot Pro de forma gratuita. Nota que para ello necesitarás:
+    - Subir una foto de tu carnet de estudiante (puedes usar la imagen que aparece en la intranet)
+    - Tener activado la [autenticación en dos factores](https://github.com/settings/security) en tu cuenta de GitHub (puedes usar una aplicación de autenticación como Microsoft Authenticator)
+    - Tener tu nombre y apellidos completos en [tu perfil de GitHub](https://github.com/settings/profile)
 
 3.  **Instala la extensión en VS Code:**
-    *   Ve a la pestaña de Extensiones en VS Code.
-    *   Busca `Github` y `GitHub Copilot` e instálalas.
-    *   Inicia sesión con tu cuenta de GitHub desde VS Code cuando te lo pida para vincularla.
-
-Mira la imagen en la siguiente slide como referencia $\downarrow$
+    Ve a la pestaña de Extensiones en VS Code, busca `Github` y `GitHub Copilot` e instálalas.
 
 ---
 
