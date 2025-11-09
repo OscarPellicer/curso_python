@@ -10,7 +10,7 @@ date,region,weather,light_conditions,gender,driver_age,vehicles_involved,fatalit
 2023-05-09,Lleida,Rain,Dark,Male,50,1,1
 2023-05-30,Barcelona,Clear,Daylight,Female,25,2,0
 2023-06-14,Tarragona,Clear,Daylight,Male,41,3,1
-2023-06-28,Girona,Fog,Dark,Male,33,1,
+2023-06-28,Girona,Fog,Dark,Male,,1,1
 2023-07-07,Barcelona,Clear,Daylight,Female,29,1,0
 2023-07-19,Lleida,Clear,Twilight,,48,2,1
 2023-08-01,Tarragona,Rain,Daylight,Male,55,1,0
@@ -18,7 +18,7 @@ date,region,weather,light_conditions,gender,driver_age,vehicles_involved,fatalit
 2023-09-10,Girona,Clear,Daylight,Male,62,1,0
 2023-09-22,Lleida,Fog,Twilight,Male,27,1,1
 2023-10-05,Tarragona,Clear,Daylight,Female,36,2,0
-2023-10-18,Barcelona,Rain,Dark,Male,49,1,
+2023-10-18,Barcelona,Rain,Dark,Male,49,1,0
 2023-11-12,Girona,Clear,Daylight,,34,2,1
 2023-11-26,Lleida,Rain,Dark,Female,51,1,0
 2023-12-08,Barcelona,Clear,Twilight,Male,23,3,2
